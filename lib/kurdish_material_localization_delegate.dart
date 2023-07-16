@@ -66,6 +66,18 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
 
   static const LocalizationsDelegate<MaterialLocalizations> delegate =
       _KurdishMaterialLocalizationsDelegate();
+  @override
+  String get scrimOnTapHintRaw => 'ئاگادارکردنەوە';
+  @override
+  String get bottomSheetLabel => 'ئاگادارکردنەوە';
+  @override
+  String get currentDateLabel => 'ئاگادارکردنەوە';
+  @override
+  String get keyboardKeyShift => 'ئاگادارکردنەوە';
+  @override
+  String get menuBarMenuLabel => 'ئاگادارکردنەوە';
+  @override
+  String get scrimLabel => 'ئاگادارکردنەوە';
 
   @override
   String get aboutListTileTitleRaw => 'دەربارەی \$applicationName';
@@ -371,9 +383,6 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
   String get keyboardKeyDelete => "دێل";
 
   @override
-  String get keyboardKeyEisu => "عیسۆ";
-
-  @override
   String get keyboardKeyEject => "دەرکردن";
 
   @override
@@ -386,34 +395,10 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
   String get keyboardKeyFn => "Fn";
 
   @override
-  String get keyboardKeyHangulMode => "دۆخی هەنگول";
-
-  @override
-  String get keyboardKeyHanjaMode => "دۆخی هانجا";
-
-  @override
-  String get keyboardKeyHankaku => "هانکاکو";
-
-  @override
-  String get keyboardKeyHiragana => "هیراگانا";
-
-  @override
-  String get keyboardKeyHiraganaKatakana => "هیراگانا کاتاکانا";
-
-  @override
   String get keyboardKeyHome => "ماڵەوە";
 
   @override
   String get keyboardKeyInsert => "تێکردن";
-
-  @override
-  String get keyboardKeyKanaMode => "دۆخی کانا";
-
-  @override
-  String get keyboardKeyKanjiMode => "دۆخی کانجی";
-
-  @override
-  String get keyboardKeyKatakana => "کاتاکانا";
 
   @override
   String get keyboardKeyMeta => "مێتا";
@@ -503,9 +488,6 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
   String get keyboardKeyPrintScreen => "شاشەی چاپکردن";
 
   @override
-  String get keyboardKeyRomaji => "ڕۆماجی";
-
-  @override
   String get keyboardKeyScrollLock => "سکڕۆڵ لۆک";
 
   @override
@@ -513,10 +495,4 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
 
   @override
   String get keyboardKeySpace => "مەودا";
-
-  @override
-  String get keyboardKeyZenkaku => "زێنکاکو";
-
-  @override
-  String get keyboardKeyZenkakuHankaku => "زێنکاکو هانکاکو";
 }

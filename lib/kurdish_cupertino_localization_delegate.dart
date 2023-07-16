@@ -66,6 +66,8 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
 
   static const LocalizationsDelegate<CupertinoLocalizations> delegate =
       _KurdishCupertinoLocalizationsDelegate();
+  @override
+  String get noSpellCheckReplacementsLabel => '';
 
   @override
   String get alertDialogLabel => 'ئاگادارکردنەوە';
