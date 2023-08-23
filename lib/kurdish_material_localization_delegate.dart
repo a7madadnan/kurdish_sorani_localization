@@ -495,4 +495,25 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
 
   @override
   String get keyboardKeySpace => "مەودا";
+
+  @override
+  String get collapsedHint => "شکست هێنان";
+
+  @override
+  String get expandedHint => "داڕما";
+
+  @override
+  String get expansionTileCollapsedHint => "دووجار لێبدە بۆ فراوانکردن";
+
+  @override
+  String get expansionTileCollapsedTapHint => "بۆ زانیاری زیاتر فراوان بکە";
+
+  @override
+  String get expansionTileExpandedHint => "دووجار لێبدە بۆ داڕمان";
+
+  @override
+  String get expansionTileExpandedTapHint => "شکست هێنان";
+
+  @override
+  String get scanTextButtonLabel => "دەق سکان بکە";
 }

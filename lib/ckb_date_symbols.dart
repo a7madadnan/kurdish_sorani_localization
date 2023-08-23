@@ -130,8 +130,8 @@ const ckbDateSymbols = {
   'DATEFORMATS': [
     'EEEE، d MMMM y',
     'd MMMM y',
-    'dd‏/MM‏/y',
-    'd‏/M‏/y',
+    'dd/MM/y',
+    'd/M/y',
   ],
   'TIMEFORMATS': [
     'h:mm:ss a zzzz',
@@ -158,7 +158,7 @@ const ckbLocaleDatePatterns = {
   'LLL': 'LLL', // ABBR_STANDALONE_MONTH
   'LLLL': 'LLLL', // STANDALONE_MONTH
   'M': 'L', // NUM_MONTH
-  'Md': 'd/‏M', // NUM_MONTH_DAY
+  'Md': 'd/M', // NUM_MONTH_DAY
   'MEd': 'EEE، d/M', // NUM_MONTH_WEEKDAY_DAY
   'MMM': 'LLL', // ABBR_MONTH
   'MMMd': 'd MMM', // ABBR_MONTH_DAY
@@ -169,9 +169,9 @@ const ckbLocaleDatePatterns = {
   'QQQ': 'QQQ', // ABBR_QUARTER
   'QQQQ': 'QQQQ', // QUARTER
   'y': 'y', // YEAR
-  'yM': 'M‏/y', // YEAR_NUM_MONTH
-  'yMd': 'd‏/M‏/y', // YEAR_NUM_MONTH_DAY
-  'yMEd': 'EEE، d/‏M/‏y', // YEAR_NUM_MONTH_WEEKDAY_DAY
+  'yM': 'M/y', // YEAR_NUM_MONTH
+  'yMd': 'd/M/y', // YEAR_NUM_MONTH_DAY
+  'yMEd': 'EEE، d/M/y', // YEAR_NUM_MONTH_WEEKDAY_DAY
   'yMMM': 'MMM y', // YEAR_ABBR_MONTH
   'yMMMd': 'd MMM y', // YEAR_ABBR_MONTH_DAY
   'yMMMEd': 'EEE، d MMM y', // YEAR_ABBR_MONTH_WEEKDAY_DAY
