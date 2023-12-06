@@ -516,4 +516,16 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
 
   @override
   String get scanTextButtonLabel => "دەق سکان بکە";
+
+  @override
+  String get lookUpButtonLabel => 'بە دوادا گەڕان';
+
+  @override
+  String get menuDismissLabel => 'مێنۆی دەرکردن';
+
+  @override
+  String get searchWebButtonLabel => 'وێبی گەڕان';
+
+  @override
+  String get shareButtonLabel => 'هاوبەشکردن...';
 }

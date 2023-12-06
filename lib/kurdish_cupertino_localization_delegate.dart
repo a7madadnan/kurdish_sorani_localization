@@ -122,4 +122,16 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
 
   @override
   String get anteMeridiemAbbreviation => 'پ.ن';
+
+  @override
+  String get lookUpButtonLabel => 'بە دوادا گەڕان';
+
+  @override
+  String get menuDismissLabel => 'مێنۆی دەرکردن';
+
+  @override
+  String get searchWebButtonLabel => 'وێبی گەڕان';
+
+  @override
+  String get shareButtonLabel => 'هاوبەشکردن...';
 }
